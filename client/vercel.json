@@ -4,7 +4,6 @@
     { "src": "next.config.js", "use": "@vercel/next" }
   ],
   "routes": [
-    { "handle": "filesystem" },
-    { "src": "/.*", "dest": "/page.js" }
+    { "src": "/.+*", "dest": "/page.js" }
   ]
 }
