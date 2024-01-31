@@ -39,7 +39,7 @@ const Login = (props) => {
     if (userData.username && userData.email && userData.password) {
       try {
         const response = await axios.post(
-          "https://task-manager-dev-town-server.vercel.app/signup",
+          "http://localhost:5000/signup",
           userData
         );
         if (response.status === 200) {
@@ -85,7 +85,7 @@ const Login = (props) => {
     try {
       if (credentials.email && credentials.password) {
         const response = await axios.post(
-          "https://task-manager-dev-town-server.vercel.app/login",
+          "http://localhost:5000/login",
           credentials
         );
         if (response.status === 200) {
