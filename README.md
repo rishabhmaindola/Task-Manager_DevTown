@@ -1,3 +1,7 @@
+Here is the Deployed Projec, try for yourself:-
+https://taskmanager-devtown-front.vercel.app/
+
+
 Ths Task Manager is created by using Next.js, Tailwind CSS, MongoDB, Node & Express js.
 
 
