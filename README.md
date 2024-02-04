@@ -1,4 +1,4 @@
-Here is the Deployed Projec, try for yourself:-
+Here is the Deployed Project, try for yourself:-
 https://taskmanager-devtown-front.vercel.app/
 
 
